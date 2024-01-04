@@ -1,0 +1,31 @@
+body{
+  background: #ffffff;
+  color: #fff;
+}
+#main{
+  width: 414px;
+  min-height: 100vh;
+  background-color: #0A0955;
+}
+@media (max-width: 414px) {
+  #main{
+    width: 100%;
+  }
+}
+.bg-darkblue{
+  background: #0A0955;
+}
+#frame{
+  border-radius: 10px 30px;
+  box-shadow: 2px 3px 4px #fff;
+}
+#twoDCard{
+  padding: 0px 10px;
+  /* border-radius: 10px 30px; */
+}
+.table-darkblue{
+  background-color: #0A0955;
+}
+.text{
+  font-size: 10px;
+}
