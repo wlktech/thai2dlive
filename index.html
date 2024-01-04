@@ -9,47 +9,48 @@
 
 </head>
 <body>
-    <div class="container-fluid" style="overflow: hidden;" id="main">
+    <div class="container" style="overflow: hidden;" id="main">
         <div class="py-5">
             <div class="">
                 <div class="d-flex align-items-center justify-content-around mb-4">
-                    <small>စိတ်ချယုံကြည် <b>Thai 2D3D</b></small>
+                    <small class="header">စိတ်ချယုံကြည် <b>Thai 2D3D</b></small>
                     <div class="bg-darkblue p-3 border border-2 border-warning shadow" id="frame">
                         <small class="d-block fw-bold">4:17:37 pm</small>
                         <small class="d-block text-warning">02/01/2024</small>
                     </div>
                 </div>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex align-items-center justify-content-around">
                     <div class="">
-                        <img src="./assets/img/logo.png" width="100px" alt="">
+                        <img src="./assets/img/logo.png" class="logo" alt="">
                         <div class="d-flex justify-content-start mb-2">
-                            <span class="d-block text-center bg-darkblue border border-1 border-warning me-3 rounded" id="twoDCard">
+                            <span class="d-block text-center bg-darkblue border border-1 border-warning me-1 rounded w-100" id="twoDCard">
                                 <small class="d-block text">Modern</small>
                                 <small class="d-block text-warning text">83</small>
                             </span>
-                            <span class="d-block text-center bg-darkblue border border-1 border-warning me-4 rounded" id="twoDCard">
+                            <span class="d-block text-center bg-darkblue border border-1 border-warning rounded w-100" id="twoDCard">
                                 <small class="d-block text">Internet</small>
                                 <small class="d-block text-warning text">32</small>
                             </span>
                         </div>
-                        <div class="d-flex justify-content-start">
+                        <div class="">
                             <span class="">
-                                <div class="border border-1 border-warning text-center px-2 pb-1 mb-1 rounded">
-                                    <small class="text-warning text">Set</small>
+                                <div class="border border-1 border-warning text-center pb-1 mb-1 rounded">
+                                    <small class="text-warning text">Set</small> -
                                     <small class="text">1,433.38</small>
                                 </div>
-                                <div class="border border-1 border-warning text-center px-2 pb-1 rounded">
-                                    <small class="text-warning text">Value</small>
+                                <div class="border border-1 border-warning text-center pb-1 rounded">
+                                    <small class="text-warning text">Value</small> -
                                     <small class="text">43,263.95</small>
                                 </div>
                             </span>
                         </div>
                     </div>
                     <div class="">
-                        <div class="border border-1 border-warning p-1 rounded pt-2">
+                        <div class="border border-1 border-warning rounded" id="table">
                             <div class="d-flex justify-content-around">
                                 <span class="d-block fw-bold">
                                     <small class="d-block mb-2 text-warning text me-1">Date</small>
+                                    <small class="d-block mb-2 text">03.01.2024</small>
                                     <small class="d-block mb-2 text">03.01.2024</small>
                                     <small class="d-block mb-2 text">03.01.2024</small>
                                     <small class="d-block mb-2 text">03.01.2024</small>
@@ -67,9 +68,11 @@
                                     <small class="d-block mb-2 text">60</small>
                                     <small class="d-block mb-2 text">60</small>
                                     <small class="d-block mb-2 text">60</small>
+                                    <small class="d-block mb-2 text">60</small>
                                 </span>
                                 <span class="d-block fw-bold text-center">
                                     <small class="d-block mb-2 text text-warning me-1">12:01</small>
+                                    <small class="d-block mb-2 text">60</small>
                                     <small class="d-block mb-2 text">60</small>
                                     <small class="d-block mb-2 text">60</small>
                                     <small class="d-block mb-2 text">60</small>
@@ -87,9 +90,11 @@
                                     <small class="d-block mb-2 text">60</small>
                                     <small class="d-block mb-2 text">60</small>
                                     <small class="d-block mb-2 text">60</small>
+                                    <small class="d-block mb-2 text">60</small>
                                 </span>
                                 <span class="d-block fw-bold text-center">
                                     <small class="d-block mb-2 text text-warning">04:30</small>
+                                    <small class="d-block mb-2 text">60</small>
                                     <small class="d-block mb-2 text">60</small>
                                     <small class="d-block mb-2 text">60</small>
                                     <small class="d-block mb-2 text">60</small>
@@ -103,9 +108,33 @@
                     </div>
 
                 </div>
-                <footer class="mt-2">
-                    <img class="img-fluid rounded shadow" src="./assets/img/banner.jpeg" alt="">
-                </footer>
+                <div id="carouselExampleIndicators" class="carousel slide mt-5">
+                    <!-- <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div> -->
+                    <div class="carousel-inner rounded shadow">
+                      <div class="carousel-item active">
+                        <img src="./assets/img/banner.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/banner.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/banner.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                
             </div>
         </div>
     </div>

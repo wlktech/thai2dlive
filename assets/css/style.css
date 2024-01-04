@@ -1,31 +1,61 @@
 body{
-  background: #ffffff;
+  background: #0A0955;
   color: #fff;
 }
 #main{
-  width: 414px;
   min-height: 100vh;
   background-color: #0A0955;
-}
-@media (max-width: 414px) {
-  #main{
-    width: 100%;
-  }
 }
 .bg-darkblue{
   background: #0A0955;
 }
-#frame{
-  border-radius: 10px 30px;
-  box-shadow: 2px 3px 4px #fff;
+.table-darkblue{
+  background-color: #0A0955;
+}
+.header{
+  font-size: 25px;
+}
+.text{
+  font-size: 20px;
 }
 #twoDCard{
   padding: 0px 10px;
   /* border-radius: 10px 30px; */
 }
-.table-darkblue{
-  background-color: #0A0955;
+#frame{
+  border-radius: 10px 30px;
+  box-shadow: 2px 3px 4px #fff;
 }
-.text{
-  font-size: 10px;
+.logo{
+  width: 250px;
+}
+#table{
+  padding: 20px;
+  padding-top: 10px;
+}
+@media (max-width: 414px) {
+  #main{
+    width: 100%;
+  }
+  .text{
+    font-size: 10px;
+  }
+  .header{
+    font-size: 15px;
+  }
+  #twoDCard{
+    padding: 0px 10px;
+    /* border-radius: 10px 30px; */
+  }
+  #frame{
+    border-radius: 10px 30px;
+    box-shadow: 2px 3px 4px #fff;
+  }
+  .logo{
+    width: 100px;
+  }
+  #table{
+    padding: 5px;
+    padding-top: 5px;
+  }
 }
